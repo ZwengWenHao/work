@@ -1,0 +1,64 @@
+.login,
+.register {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: #f0f2f5;
+
+  .login_box {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 150px;
+    margin: auto;
+    text-align: center;
+    .login_title {
+      margin: auto;
+      position: relative;
+      margin-top: 20px;
+      height: 20px;
+      line-height: 30px;
+      p {
+        width: 100%;
+        text-align: center;
+      }
+    }
+    .login_header {
+      h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+          width: 35px;
+          height: 35px;
+          margin-right: 22px;
+        }
+      }
+      p {
+        margin-top: 10px;
+        font-size: 14px;
+      }
+    }
+
+    .el-input {
+      height: 40px;
+    }
+
+    .login_footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 13px;
+      span {
+        color: #409eff;
+        cursor: pointer;
+      }
+    }
+  }
+}
+::v-deep .el-divider {
+  margin-top: 9px;
+}

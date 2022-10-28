@@ -1,0 +1,68 @@
+.login,
+.register {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: #f0f2f5;
+}
+.login .login_box,
+.register .login_box {
+  position: absolute;
+  width: 400px;
+  height: 350px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 150px;
+  margin: auto;
+  text-align: center;
+}
+.login .login_box .login_title,
+.register .login_box .login_title {
+  margin: auto;
+  position: relative;
+  margin-top: 20px;
+  height: 20px;
+  line-height: 30px;
+}
+.login .login_box .login_title p,
+.register .login_box .login_title p {
+  width: 100%;
+  text-align: center;
+}
+.login .login_box .login_header h1,
+.register .login_box .login_header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login .login_box .login_header h1 img,
+.register .login_box .login_header h1 img {
+  width: 35px;
+  height: 35px;
+  margin-right: 22px;
+}
+.login .login_box .login_header p,
+.register .login_box .login_header p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.login .login_box .el-input,
+.register .login_box .el-input {
+  height: 40px;
+}
+.login .login_box .login_footer,
+.register .login_box .login_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.login .login_box .login_footer span,
+.register .login_box .login_footer span {
+  color: #409eff;
+  cursor: pointer;
+}
+::v-deep .el-divider {
+  margin-top: 9px;
+}
